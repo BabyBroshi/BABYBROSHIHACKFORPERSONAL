@@ -590,9 +590,9 @@ ifneq (,$(wildcard $(LOADER_DIR_FILE_SPECIFICATION_PATH)))
   LOADER_DIR = $(shell cat $(LOADER_DIR_FILE_SPECIFICATION_PATH))
 endif
 ifneq (,$(call find-command,wslview))
-  LOADER_EXEC = $(LOADER_DIR)/UNFLoader.exe
+  UNFLOADER_EXEC = $(LOADER_DIR)/UNFLoader.exe
 else
-  LOADER_EXEC = $(LOADER_DIR)/UNFLoader
+  UNFLOADER_EXEC = $(LOADER_DIR)/UNFLoader
 endif
 
 SHA1SUM = sha1sum
@@ -648,17 +648,17 @@ test-pj64: $(ROM)
 # someone2639
 
 # download and extract most recent unfloader build if needed
-$(LOADER_EXEC):
-ifeq (,$(wildcard $(LOADER_EXEC)))
+$(UNFLOADER_EXEC):
+ifeq (,$(wildcard $(UNFLOADER_EXEC)))
 	@$(PRINT) "Downloading latest UNFLoader...$(NO_COL)\n"
 	$(PYTHON) $(TOOLS_DIR)/get_latest_unfloader.py $(LOADER_DIR)
 endif
 
-load: $(ROM) $(LOADER_EXEC)
-	$(LOADER_EXEC) -r $<
+load: $(ROM) $(UNFLOADER_EXEC)
+	$(UNFLOADER_EXEC) -r $<
 
-unf: $(ROM) $(LOADER_EXEC)
-	$(LOADER_EXEC) -d -r $<
+unf: $(ROM) $(UNFLOADER_EXEC)
+	$(UNFLOADER_EXEC) -d -r $<
 
 libultra: $(BUILD_DIR)/libultra.a
 

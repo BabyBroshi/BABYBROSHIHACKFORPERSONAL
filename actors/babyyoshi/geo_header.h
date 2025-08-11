@@ -1,0 +1,14 @@
+extern const GeoLayout babyyoshi_geo[];
+extern u8 babyyoshi_yoshichibi_body_rgba16[];
+extern u8 babyyoshi_yoshichibi_eye_0_rgba16[];
+extern Vtx babyyoshi_polygon0_mesh_layer_1_vtx_cull[8];
+extern Vtx babyyoshi_polygon0_mesh_layer_1_vtx_0[1608];
+extern Gfx babyyoshi_polygon0_mesh_layer_1_tri_0[];
+extern Vtx babyyoshi_polygon0_mesh_layer_1_vtx_1[48];
+extern Gfx babyyoshi_polygon0_mesh_layer_1_tri_1[];
+extern Gfx mat_babyyoshi_mat_block_yoshi_body_f3d[];
+extern Gfx mat_revert_babyyoshi_mat_block_yoshi_body_f3d[];
+extern Gfx mat_babyyoshi_mat_block_yoshi_eye_f3d[];
+extern Gfx mat_revert_babyyoshi_mat_block_yoshi_eye_f3d[];
+extern Gfx babyyoshi_polygon0_mesh_layer_1[];
+s

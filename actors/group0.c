@@ -30,3 +30,9 @@
 #include "src/s2d_engine/s2d_config.h"
 #include FONT_C_FILE
 #endif
+
+#include "babyyoshi/model.inc.c"
+#include "bizzarescape/model.inc.c"
+#include "bizzarescape/collision.inc.c"
+#include "pressb/model.inc.c"
+#include "pressb/collision.inc.c"

@@ -3,6 +3,11 @@
 
 #define MODEL_NONE                             0x00
 
+/* fast64 object exports get inserted here */
+#define MODEL_PRESSB                      228
+#define MODEL_BIZZARESCAPE                227
+#define MODEL_BABYYOSHI                   226
+
 /* Global models that are loaded for every level */
 
 #define MODEL_MARIO                            0x01        // mario_geo

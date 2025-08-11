@@ -389,6 +389,43 @@ enum BehaviorCommands {
     BC_BPTR(BHV_CMD_SPAWN_WATER_DROPLET, dropletParams)
 
 
+/* fast64 object exports get inserted here */
+const BehaviorScript bhvPressb[] = {
+	BEGIN(OBJ_LIST_GENACTOR),
+	OR_INT(oFlags, OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+	SET_INTERACT_TYPE(INTERACT_TEXT),
+	SET_HITBOX(0, 0),
+	SET_INT(oInteractionSubtype, INT_SUBTYPE_SIGN),
+	BEGIN_LOOP(),
+		SET_INT(oIntangibleTimer, 0),
+		SET_INT(oInteractStatus, 0),
+	END_LOOP(),
+};
+
+const BehaviorScript bhvBizzarescape[] = {
+	BEGIN(OBJ_LIST_GENACTOR),
+	OR_INT(oFlags, OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+	SET_INTERACT_TYPE(INTERACT_TEXT),
+	SET_HITBOX(150, 160),
+	SET_INT(oInteractionSubtype, INT_SUBTYPE_SIGN),
+	BEGIN_LOOP(),
+		SET_INT(oIntangibleTimer, 0),
+		SET_INT(oInteractStatus, 0),
+	END_LOOP(),
+};
+
+const BehaviorScript bhvBabyyoshi[] = {
+	BEGIN(OBJ_LIST_GENACTOR),
+	OR_INT(oFlags, OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+	SET_INTERACT_TYPE(INTERACT_TEXT),
+	SET_HITBOX(150, 140),
+	SET_INT(oInteractionSubtype, INT_SUBTYPE_SIGN),
+	BEGIN_LOOP(),
+		SET_INT(oIntangibleTimer, 0),
+		SET_INT(oInteractStatus, 0),
+	END_LOOP(),
+};
+
 const BehaviorScript bhvStarDoor[] = {
     BEGIN(OBJ_LIST_SURFACE),
     SET_INT(oInteractType, INTERACT_DOOR),

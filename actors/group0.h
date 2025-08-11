@@ -331,4 +331,16 @@ extern const Gfx white_particle_small_dl_end[];
 extern const Gfx white_particle_small_dl[];
 extern const Gfx white_particle_small_unused_dl[];
 
+#include "babyyoshi/geo_header.h"
+
+#include "bizzarescape/geo_header.h"
+
+#include "bizzarescape/collision_header.h"
+
+#include "pressb/geo_header.h"
+
+#include "pressb/collision_header.h"
+
+#include "mario/geo_header.h"
+
 #endif

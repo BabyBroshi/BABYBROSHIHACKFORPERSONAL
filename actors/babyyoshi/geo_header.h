@@ -11,4 +11,3 @@ extern Gfx mat_revert_babyyoshi_mat_block_yoshi_body_f3d[];
 extern Gfx mat_babyyoshi_mat_block_yoshi_eye_f3d[];
 extern Gfx mat_revert_babyyoshi_mat_block_yoshi_eye_f3d[];
 extern Gfx babyyoshi_polygon0_mesh_layer_1[];
-s

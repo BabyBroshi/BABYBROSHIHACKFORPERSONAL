@@ -32,7 +32,7 @@
 #endif
 
 #include "babyyoshi/model.inc.c"
-#include "bizzarescape/model.inc.c"
-#include "bizzarescape/collision.inc.c"
 #include "pressb/model.inc.c"
 #include "pressb/collision.inc.c"
+#include "babybroshi/collision.inc.c"
+#include "babybroshi/model.inc.c"

@@ -1,13 +1,13 @@
-void scroll_castle_inside_dl_deathplane_mesh_layer_1_vtx_0() {
+void scroll_castle_inside_dl_clouds_mesh_layer_5_vtx_8() {
 	int i = 0;
-	int count = 9;
-	int width = 32 * 0x20;
+	int count = 4;
+	int width = 64 * 0x20;
 
 	static int currentX = 0;
 	int deltaX;
-	Vtx *vertices = segmented_to_virtual(castle_inside_dl_deathplane_mesh_layer_1_vtx_0);
+	Vtx *vertices = segmented_to_virtual(castle_inside_dl_clouds_mesh_layer_5_vtx_8);
 
-	deltaX = (int)(-0.25 * 0x20) % width;
+	deltaX = (int)(1.0 * 0x20) % width;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -20,5 +20,5 @@ void scroll_castle_inside_dl_deathplane_mesh_layer_1_vtx_0() {
 }
 
 void scroll_castle_inside() {
-	scroll_castle_inside_dl_deathplane_mesh_layer_1_vtx_0();
+	scroll_castle_inside_dl_clouds_mesh_layer_5_vtx_8();
 };

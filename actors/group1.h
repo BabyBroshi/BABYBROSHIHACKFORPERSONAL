@@ -91,4 +91,8 @@ extern const Gfx yoshi_egg_seg5_dl_05009898[];
 extern const Gfx yoshi_egg_seg5_dl_050098B0[];
 extern const Gfx yoshi_egg_seg5_dl_050098C8[];
 
+#include "bizzarescape/collision_header.h"
+
+#include "bizzarescape/geo_header.h"
+
 #endif

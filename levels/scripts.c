@@ -65,6 +65,7 @@ const LevelScript level_main_scripts_entry[] = {
     LOAD_RAW_WITH_CODE( /*seg*/ SEGMENT_COMMON1_GEO,   _common1_geoSegmentRomStart,  _common1_geoSegmentRomEnd, _common1_geoSegmentBssStart, _common1_geoSegmentBssEnd),
     LOAD_RAW_WITH_CODE( /*seg*/ SEGMENT_BEHAVIOR_DATA,    _behaviorSegmentRomStart,     _behaviorSegmentRomEnd,   _behaviorSegmentBssStart,     _behaviorSegmentBssEnd),
     ALLOC_LEVEL_POOL(),
+    LOAD_MODEL_FROM_GEO(MODEL_BABYBROSHI, babybroshi_geo),
     LOAD_MODEL_FROM_GEO(MODEL_BIZZARESCAPE, bizzarescape_geo),
     LOAD_MODEL_FROM_GEO(MODEL_BABYYOSHI, babyyoshi_geo),
     LOAD_MODEL_FROM_GEO(MODEL_PRESSB, pressb_geo),
@@ -204,6 +205,7 @@ const LevelScript script_func_global_1[] = {
 };
 
 const LevelScript script_func_global_2[] = {
+    LOAD_MODEL_FROM_GEO(MODEL_BIZZARESCAPE, bizzarescape_geo),
     LOAD_MODEL_FROM_GEO(MODEL_BULLET_BILL,             bullet_bill_geo),
     LOAD_MODEL_FROM_GEO(MODEL_YELLOW_SPHERE,           yellow_sphere_geo),
     LOAD_MODEL_FROM_GEO(MODEL_HOOT,                    hoot_geo),

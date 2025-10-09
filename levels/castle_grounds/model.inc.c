@@ -131,61 +131,6 @@ u8 castle_grounds_dl_SUPER_MARIO_64_3FF93DA3_0_2_all_i8[] = {
 	
 };
 
-Vtx castle_grounds_dl_Cube_mesh_layer_1_vtx_cull[8] = {
-	{{ {-100, -100, 100}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-100, 100, 100}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-100, 100, -100}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-100, -100, -100}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {100, -100, 100}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {100, 100, 100}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {100, 100, -100}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {100, -100, -100}, 0, {0, 0}, {0, 0, 0, 0} }},
-};
-
-Vtx castle_grounds_dl_Cube_mesh_layer_1_vtx_0[30] = {
-	{{ {-100, 100, 100}, 0, {1008, -16}, {206, 206, 206, 255} }},
-	{{ {-100, -100, -100}, 0, {-1040, 2032}, {190, 190, 190, 255} }},
-	{{ {-100, -100, 100}, 0, {1008, 2032}, {193, 193, 193, 255} }},
-	{{ {-100, 100, -100}, 0, {1008, -16}, {204, 204, 204, 255} }},
-	{{ {100, -100, -100}, 0, {-1040, 2032}, {195, 195, 195, 255} }},
-	{{ {-100, -100, -100}, 0, {1008, 2032}, {193, 193, 193, 255} }},
-	{{ {100, 100, -100}, 0, {1008, -16}, {206, 206, 206, 255} }},
-	{{ {100, -100, 100}, 0, {-1040, 2032}, {193, 193, 193, 255} }},
-	{{ {100, -100, -100}, 0, {1008, 2032}, {192, 192, 192, 255} }},
-	{{ {100, 100, 100}, 0, {1008, -16}, {203, 203, 203, 255} }},
-	{{ {-100, -100, 100}, 0, {-1040, 2032}, {191, 191, 191, 255} }},
-	{{ {100, -100, 100}, 0, {1008, 2032}, {194, 194, 194, 255} }},
-	{{ {-100, 100, -100}, 0, {-1040, -16}, {204, 204, 204, 255} }},
-	{{ {-100, -100, -100}, 0, {-1040, 2032}, {190, 190, 190, 255} }},
-	{{ {-100, 100, -100}, 0, {1008, -16}, {202, 202, 202, 255} }},
-	{{ {100, 100, -100}, 0, {-1040, -16}, {204, 204, 204, 255} }},
-	{{ {100, -100, -100}, 0, {-1040, 2032}, {193, 193, 193, 255} }},
-	{{ {100, 100, -100}, 0, {1008, -16}, {204, 204, 204, 255} }},
-	{{ {100, 100, 100}, 0, {-1040, -16}, {204, 204, 204, 255} }},
-	{{ {100, -100, 100}, 0, {-1040, 2032}, {191, 191, 191, 255} }},
-	{{ {-100, 100, 100}, 0, {-1040, -16}, {205, 205, 205, 255} }},
-	{{ {-100, -100, 100}, 0, {-1040, 2032}, {190, 190, 190, 255} }},
-	{{ {100, -100, -100}, 0, {-1040, -16}, {255, 255, 255, 255} }},
-	{{ {-100, -100, 100}, 0, {1008, 2032}, {255, 255, 255, 255} }},
-	{{ {-100, -100, -100}, 0, {1008, -16}, {255, 255, 255, 255} }},
-	{{ {100, -100, 100}, 0, {-1040, 2032}, {255, 255, 255, 255} }},
-	{{ {-100, 100, -100}, 0, {-1040, -16}, {255, 255, 255, 255} }},
-	{{ {100, 100, 100}, 0, {1008, 2032}, {255, 255, 255, 255} }},
-	{{ {100, 100, -100}, 0, {1008, -16}, {255, 255, 255, 255} }},
-	{{ {-100, 100, 100}, 0, {-1040, 2032}, {255, 255, 255, 255} }},
-};
-
-Gfx castle_grounds_dl_Cube_mesh_layer_1_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_Cube_mesh_layer_1_vtx_0 + 0, 30, 0),
-	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
-	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
-	gsSP2Triangles(0, 12, 13, 0, 14, 15, 16, 0),
-	gsSP2Triangles(17, 18, 19, 0, 9, 20, 21, 0),
-	gsSP2Triangles(22, 23, 24, 0, 22, 25, 23, 0),
-	gsSP2Triangles(26, 27, 28, 0, 26, 29, 27, 0),
-	gsSPEndDisplayList(),
-};
-
 Vtx castle_grounds_dl_room_mesh_layer_1_vtx_cull[8] = {
 	{{ {-2873, -2873, 2873}, 0, {0, 0}, {0, 0, 0, 0} }},
 	{{ {-2873, 2873, 2873}, 0, {0, 0}, {0, 0, 0, 0} }},
@@ -235,27 +180,6 @@ Gfx castle_grounds_dl_room_mesh_layer_1_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_castle_grounds_dl_f3dlite_material_002[] = {
-	gsSPGeometryMode(G_LIGHTING, 0),
-	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, ENVIRONMENT, 0, SHADE, 0, TEXEL0, 0, SHADE, 0, ENVIRONMENT, 0, SHADE, 0),
-	gsDPSetAlphaDither(G_AD_NOISE),
-	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_grounds_dl_SUPER_MARIO_64_3FF93DA3_0_2_all_i8),
-	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(7, 0, 0, 511, 512),
-	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
-	gsDPSetTileSize(0, 0, 0, 124, 124),
-	gsSPEndDisplayList(),
-};
-
-Gfx mat_revert_castle_grounds_dl_f3dlite_material_002[] = {
-	gsSPGeometryMode(0, G_LIGHTING),
-	gsDPPipeSync(),
-	gsDPSetAlphaDither(G_AD_DISABLE),
-	gsSPEndDisplayList(),
-};
-
 Gfx mat_castle_grounds_dl_f3dlite_material[] = {
 	gsSPLightColor(LIGHT_1, 0xFFFFFFFF),
 	gsSPLightColor(LIGHT_2, 0x7F7F7FFF),
@@ -274,17 +198,6 @@ Gfx mat_castle_grounds_dl_f3dlite_material[] = {
 Gfx mat_revert_castle_grounds_dl_f3dlite_material[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
-	gsSPEndDisplayList(),
-};
-
-Gfx castle_grounds_dl_Cube_mesh_layer_1[] = {
-	gsSPClearGeometryMode(G_LIGHTING),
-	gsSPVertex(castle_grounds_dl_Cube_mesh_layer_1_vtx_cull + 0, 8, 0),
-	gsSPSetGeometryMode(G_LIGHTING),
-	gsSPCullDisplayList(0, 7),
-	gsSPDisplayList(mat_castle_grounds_dl_f3dlite_material_002),
-	gsSPDisplayList(castle_grounds_dl_Cube_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_castle_grounds_dl_f3dlite_material_002),
 	gsSPEndDisplayList(),
 };
 

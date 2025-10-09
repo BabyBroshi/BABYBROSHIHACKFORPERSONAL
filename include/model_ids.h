@@ -4,6 +4,7 @@
 #define MODEL_NONE                             0x00
 
 /* fast64 object exports get inserted here */
+#define MODEL_BABYBROSHI                  230
 #define MODEL_PRESSB                      228
 #define MODEL_BIZZARESCAPE                227
 #define MODEL_BABYYOSHI                   226

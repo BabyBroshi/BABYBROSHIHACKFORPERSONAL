@@ -333,10 +333,6 @@ extern const Gfx white_particle_small_unused_dl[];
 
 #include "babyyoshi/geo_header.h"
 
-#include "bizzarescape/geo_header.h"
-
-#include "bizzarescape/collision_header.h"
-
 #include "pressb/geo_header.h"
 
 #include "pressb/collision_header.h"
@@ -346,5 +342,9 @@ extern const Gfx white_particle_small_unused_dl[];
 #include "babybroshi/collision_header.h"
 
 #include "babybroshi/geo_header.h"
+
+#include "bizzarescape/collision_header.h"
+
+#include "bizzarescape/geo_header.h"
 
 #endif

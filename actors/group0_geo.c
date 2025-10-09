@@ -20,3 +20,4 @@
 #include "babyyoshi/geo.inc.c"
 #include "pressb/geo.inc.c"
 #include "babybroshi/geo.inc.c"
+#include "bizzarescape/geo.inc.c"

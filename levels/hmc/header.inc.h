@@ -1,0 +1,10 @@
+extern const GeoLayout hmc_area_1_geo[];
+extern const GeoLayout hmc_area_1[];
+extern const Collision hmc_area_1_collision[];
+extern const MacroObject hmc_area_1_macro_objs[];
+extern Vtx hmc_dl_Sphere_mesh_layer_1_vtx_cull[8];
+extern Vtx hmc_dl_Sphere_mesh_layer_1_vtx_0[1013];
+extern Gfx hmc_dl_Sphere_mesh_layer_1_tri_0[];
+extern Gfx mat_hmc_dl_Fast3D_Material_002[];
+extern Gfx mat_revert_hmc_dl_Fast3D_Material_002[];
+extern Gfx hmc_dl_Sphere_mesh_layer_1[];

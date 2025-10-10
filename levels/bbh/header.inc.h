@@ -13,7 +13,7 @@ extern Gfx bbh_dl_Level_Mesh_mesh_layer_5_tri_0[];
 extern Vtx bbh_dl_Level_Mesh_mesh_layer_1_vtx_cull[8];
 extern Vtx bbh_dl_Level_Mesh_mesh_layer_1_vtx_0[41];
 extern Gfx bbh_dl_Level_Mesh_mesh_layer_1_tri_0[];
-extern Vtx bbh_dl_Level_Mesh_mesh_layer_1_vtx_1[1034];
+extern Vtx bbh_dl_Level_Mesh_mesh_layer_1_vtx_1[1358];
 extern Gfx bbh_dl_Level_Mesh_mesh_layer_1_tri_1[];
 extern Gfx mat_bbh_dl_bars[];
 extern Gfx mat_revert_bbh_dl_bars[];

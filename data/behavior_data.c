@@ -392,14 +392,6 @@ enum BehaviorCommands {
 /* fast64 object exports get inserted here */
 const BehaviorScript bhvEvilsaul[] = {
 	BEGIN(OBJ_LIST_GENACTOR),
-	OR_INT(oFlags, OBJ_FLAG_COMPUTE_ANGLE_TO_MARIO | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
-	SET_INTERACT_TYPE(INTERACT_TEXT),
-	SET_HITBOX(60, 30),
-	SET_INT(oInteractionSubtype, INT_SUBTYPE_SIGN),
-	BEGIN_LOOP(),
-		SET_INT(oIntangibleTimer, 0),
-		SET_INT(oInteractStatus, 0),
-	END_LOOP(),
 };
 
 const BehaviorScript bhvSaul[] = {

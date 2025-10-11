@@ -55,6 +55,7 @@ const LevelScript level_ccm_entry[] = {
 		MARIO_POS(0x01, 0, 0, 80, 0),
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
 		OBJECT(MODEL_BREAKABLE_BOX_SMALL, -418, 0, 0, 0, 0, 0, 0x00000000, bhvBreakableBoxSmall),
+		OBJECT(MODEL_EVILSAUL, 0, 0, -549, 0, 0, 0, 0x00000000, bhvEvilsaul),
 		TERRAIN(ccm_area_1_collision),
 		MACRO_OBJECTS(ccm_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_SNOW),

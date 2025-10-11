@@ -54,6 +54,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
 		OBJECT(MODEL_EVILSAUL, -1123, 100, -1357, 0, 0, 0, (0 << 24) | (16 << 16), bhvEvilsaul),
 		OBJECT(MODEL_SAUL, -1323, 100, -1357, 0, 0, 0, (0 << 24) | (15 << 16), bhvSaul),
+		OBJECT(MODEL_NONE, -2280, 206, 0, 0, 0, 0, (100 << 24) | (0x0D << 16), bhvWarp),
 		TERRAIN(castle_grounds_area_1_collision),
 		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_INSIDE_CASTLE),

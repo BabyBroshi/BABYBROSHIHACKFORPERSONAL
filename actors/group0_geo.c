@@ -22,3 +22,4 @@
 #include "babybroshi/geo.inc.c"
 #include "bizzarescape/geo.inc.c"
 #include "saul/geo.inc.c"
+#include "evilsaul/geo.inc.c"

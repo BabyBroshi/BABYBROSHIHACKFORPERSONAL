@@ -128,16 +128,14 @@ Do you want to Save?\n\
 //You Bet//Not Now"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
-Ignore all the crates.\n\
-we've been delivering\n\
-a lot of packages lately."))
+this is not my\n\
+romhack and I did\n\
+not create this but\n\
+it is good maybe probably"))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-ATTENTION KOOPAS!\n\
-If your having trouble\n\
-getting across those\n\
-platforms a simple long\n\
-jump will do the trick."))
+I am evil guy now\n\
+KILL that toad"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
 It seems like you've\n\

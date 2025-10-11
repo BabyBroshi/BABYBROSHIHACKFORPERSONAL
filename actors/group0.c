@@ -40,3 +40,4 @@
 #include "bizzarescape/model.inc.c"
 #include "saul/collision.inc.c"
 #include "saul/model.inc.c"
+#include "evilsaul/model.inc.c"

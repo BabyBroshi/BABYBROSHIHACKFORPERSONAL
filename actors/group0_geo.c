@@ -21,3 +21,4 @@
 #include "pressb/geo.inc.c"
 #include "babybroshi/geo.inc.c"
 #include "bizzarescape/geo.inc.c"
+#include "saul/geo.inc.c"

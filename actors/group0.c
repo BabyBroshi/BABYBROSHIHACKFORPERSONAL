@@ -38,3 +38,5 @@
 #include "babybroshi/model.inc.c"
 #include "bizzarescape/collision.inc.c"
 #include "bizzarescape/model.inc.c"
+#include "saul/collision.inc.c"
+#include "saul/model.inc.c"

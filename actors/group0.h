@@ -347,4 +347,8 @@ extern const Gfx white_particle_small_unused_dl[];
 
 #include "bizzarescape/geo_header.h"
 
+#include "saul/collision_header.h"
+
+#include "saul/geo_header.h"
+
 #endif

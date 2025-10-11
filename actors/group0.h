@@ -353,4 +353,14 @@ extern const Gfx white_particle_small_unused_dl[];
 
 #include "evilsaul/geo_header.h"
 
+#include "evilsaul3d/geo_header.h"
+
+#include "evilsaulthreed/geo_header.h"
+
+#include "evilsaull/geo_header.h"
+
+#include "evilsaull/collision_header.h"
+
+#include "bageler/geo_header.h"
+
 #endif

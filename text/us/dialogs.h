@@ -21,17 +21,7 @@ Other stuff by me\n\
 -Baby Yoshi :3"))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
-hey its me Bizzarescape!\n\
-You need to get the\n\
-power star to help\n\
-power our ships!\n\
-Gather all 8 red coins\n\
-Then come back here.\n\
-Don't worry if you\n\
-fall, you will still\n\
-have your red coins.\n\
-We are all depending\n\
-on you captain mario!"))
+You fucking clanker!"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
 Good job getting the\n\

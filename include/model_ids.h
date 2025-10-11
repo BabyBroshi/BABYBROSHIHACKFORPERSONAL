@@ -4,6 +4,10 @@
 #define MODEL_NONE                             0x00
 
 /* fast64 object exports get inserted here */
+#define MODEL_BAGELER                     253
+#define MODEL_EVILSAULL                   252
+#define MODEL_EVILSAULTHREED              251
+#define MODEL_EVILSAUL3D                  251
 #define MODEL_EVILSAUL                    251
 #define MODEL_SAUL                        250
 #define MODEL_BABYBROSHI                  230

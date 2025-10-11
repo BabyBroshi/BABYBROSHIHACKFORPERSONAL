@@ -23,3 +23,7 @@
 #include "bizzarescape/geo.inc.c"
 #include "saul/geo.inc.c"
 #include "evilsaul/geo.inc.c"
+#include "evilsaul3d/geo.inc.c"
+#include "evilsaulthreed/geo.inc.c"
+#include "evilsaull/geo.inc.c"
+#include "bageler/geo.inc.c"

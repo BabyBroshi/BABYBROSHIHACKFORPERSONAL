@@ -48,7 +48,8 @@ void small_breakable_box_act_move(void) {
         spawn_mist_particles();
         spawn_triangle_break_particles(20, MODEL_DIRT_ANIMATION, 0.7f, 3);
         obj_spawn_yellow_coins(o, 3);
-                gSecondCameraFocus = spawn_object(o, MODEL_STAR, bhvStar);
+struct Object *star = spawn_object(o, MODEL_STAR, bhvStar);
+star->oBehParams = (0 << 24);
                     cutscene_object(CUTSCENE_STAR_SPAWN, o);
         create_sound_spawner(SOUND_GENERAL_BREAK_BOX);
         o->activeFlags = ACTIVE_FLAG_DEACTIVATED;

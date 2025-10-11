@@ -41,3 +41,8 @@
 #include "saul/collision.inc.c"
 #include "saul/model.inc.c"
 #include "evilsaul/model.inc.c"
+#include "evilsaul3d/model.inc.c"
+#include "evilsaulthreed/model.inc.c"
+#include "evilsaull/model.inc.c"
+#include "evilsaull/collision.inc.c"
+#include "bageler/model.inc.c"

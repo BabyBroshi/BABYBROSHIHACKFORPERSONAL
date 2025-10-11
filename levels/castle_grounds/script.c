@@ -50,7 +50,6 @@ const LevelScript level_castle_grounds_entry[] = {
 		WARP_NODE(0xF0, LEVEL_CASTLE, 0x01, 0x32, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF1, LEVEL_CASTLE, 0x01, 0x64, WARP_NO_CHECKPOINT),
 		WARP_NODE(0x0D, LEVEL_CCM, 0x01, 0x0A, WARP_NO_CHECKPOINT),
-		OBJECT(MODEL_NONE, -2155, 206, 0, 0, 0, 0, (0x0D << 16), bhvWarp),
 		MARIO_POS(0x01, 0, 0, 80, 0),
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
 		OBJECT(MODEL_EVILSAUL, -1123, 100, -1357, 0, 0, 0, (0 << 24) | (16 << 16), bhvEvilsaul),

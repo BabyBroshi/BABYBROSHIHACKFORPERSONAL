@@ -49,13 +49,15 @@ const LevelScript level_castle_grounds_entry[] = {
 		WARP_NODE(0x0A, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF0, LEVEL_CASTLE, 0x01, 0x32, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF1, LEVEL_CASTLE, 0x01, 0x64, WARP_NO_CHECKPOINT),
+		WARP_NODE(0x0D, LEVEL_CCM, 0x01, 0x0A, WARP_NO_CHECKPOINT),
+		OBJECT(MODEL_NONE, -2155, 206, 0, 0, 0, 0, (0x0D << 16), bhvWarp),
 		MARIO_POS(0x01, 0, 0, 80, 0),
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
-		OBJECT(MODEL_EVILSAUL, -623, 100, -1057, 0, 0, 0, (0 << 24) | (16 << 16), bhvEvilsaul),
-		OBJECT(MODEL_SAUL, -1023, 100, -1057, 0, 0, 0, (0 << 24) | (15 << 16), bhvSaul),
+		OBJECT(MODEL_EVILSAUL, -1123, 100, -1357, 0, 0, 0, (0 << 24) | (16 << 16), bhvEvilsaul),
+		OBJECT(MODEL_SAUL, -1323, 100, -1357, 0, 0, 0, (0 << 24) | (15 << 16), bhvSaul),
 		TERRAIN(castle_grounds_area_1_collision),
 		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_INSIDE_CASTLE),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */

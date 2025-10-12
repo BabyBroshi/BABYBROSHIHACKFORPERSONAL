@@ -43,7 +43,7 @@ const LevelScript level_vcutm_entry[] = {
 		WARP_NODE(0xF1, LEVEL_CASTLE_GROUNDS, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		MARIO_POS(0x01, 0, 0, 80, 0),
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
-		OBJECT(MODEL_NONE, 1267, 1962, -484, 0, 0, 0, (30 << 24) | (0x0D << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 1267, 1962, -484, 0, 0, 0, (50 << 24) | (0x0D << 16), bhvWarp),
 		TERRAIN(vcutm_area_1_collision),
 		MACRO_OBJECTS(vcutm_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),

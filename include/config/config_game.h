@@ -53,7 +53,7 @@
 /**
  * Number of possible unique model ID's (keep it higher than 256).
  */
-#define MODEL_ID_COUNT 256
+#define MODEL_ID_COUNT 267
 
 /**
  * Number of supported areas per level.

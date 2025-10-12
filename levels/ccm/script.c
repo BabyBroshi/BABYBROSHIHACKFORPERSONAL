@@ -62,6 +62,7 @@ const LevelScript level_ccm_entry[] = {
 		OBJECT_WITH_ACTS(MODEL_BAGELER, -2513, 397, 0, 0, 0, 70, (0 << 24) | (1 << 16), bhvBageler, ACT_2 | ACT_4 | ACT_5 | ACT_6),
 		OBJECT_WITH_ACTS(MODEL_EVILSAULL, 0, 85, -292, 0, 90, 0, (0 << 24) | (1 << 16), bhvBobombBuddy, ACT_1),
 		OBJECT_WITH_ACTS(MODEL_EVILSAULL, 0, 143, -292, 0, 90, 0, (10 << 16), bhvExclamationBox, ACT_2),
+		OBJECT(MODEL_STAR, -2305, 1489, -7450, 0, 0, 0, (3 << 24), bhvStar),
 		OBJECT(MODEL_NONE, 1001, 8285, 7626, 0, 0, 0, (0x0D << 16), bhvWarp),
 		TERRAIN(ccm_area_1_collision),
 		MACRO_OBJECTS(ccm_area_1_macro_objs),

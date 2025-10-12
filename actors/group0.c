@@ -46,3 +46,4 @@
 #include "evilsaull/model.inc.c"
 #include "evilsaull/collision.inc.c"
 #include "bageler/model.inc.c"
+#include "glibertthethird/model.inc.c"

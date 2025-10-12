@@ -363,4 +363,6 @@ extern const Gfx white_particle_small_unused_dl[];
 
 #include "bageler/geo_header.h"
 
+#include "glibertthethird/geo_header.h"
+
 #endif

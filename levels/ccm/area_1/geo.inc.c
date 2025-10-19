@@ -3,7 +3,6 @@
 const GeoLayout ccm_area_1_geo[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_TRANSLATE_NODE_WITH_DL(LAYER_TRANSPARENT, -12823, -3140, 5924, ccm_dl_DETHPLANE_mesh_layer_5),
 		GEO_DISPLAY_LIST(LAYER_OPAQUE, ccm_dl_level_mesh_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 0, 0, -5706, ccm_dl_level_mesh_001_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -10355, 235, 4630, ccm_dl_parkourcube_mesh_layer_1),
@@ -23,6 +22,7 @@ const GeoLayout ccm_area_1_geo[] = {
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -13076, 908, 6971, ccm_dl_parkourcube_014_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -12586, 908, 7373, ccm_dl_parkourcube_015_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -11996, 964, 8680, ccm_dl_parkourcube_018_mesh_layer_1),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -13070, 0, 6337, ccm_dl_parkourskybox_mesh_layer_1),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };

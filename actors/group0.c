@@ -47,3 +47,5 @@
 #include "evilsaull/collision.inc.c"
 #include "bageler/model.inc.c"
 #include "glibertthethird/model.inc.c"
+#include "mario/anims/data.inc.c"
+#include "mario/anims/table.inc.c"

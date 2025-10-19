@@ -119,7 +119,7 @@ s32 act_idle(struct MarioState *m) {
     if (check_common_idle_cancels(m)) {
         return TRUE;
     }
-
+    
     if (m->actionState == ACT_STATE_IDLE_RESET_OR_SLEEP) {
 #ifndef NO_SLEEP
         if ((m->area->terrainType & TERRAIN_MASK) == TERRAIN_SNOW) {

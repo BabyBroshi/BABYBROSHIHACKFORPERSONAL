@@ -76,7 +76,7 @@ const LevelScript level_wf_entry[] = {
 		WARP_NODE(0x0D, LEVEL_WF, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		MARIO_POS(0x01, 0, -73, 416, -11),
 		OBJECT(MODEL_NONE, -73, 416, -11, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
-		OBJECT(MODEL_NONE, -2201, 17714, 3586, 0, 0, 0, (0x0D << 16), bhvFadingWarp),
+		OBJECT(MODEL_NONE, -2201, 13994, 3586, 0, 0, 0, (0x0D << 16), bhvSwimmingWarp),
 		OBJECT(MODEL_DL_WHIRLPOOL, -194, -1168, -11, 0, 0, 0, 0x00000000, bhvWhirlpool),
 		TERRAIN(wf_area_1_collision),
 		MACRO_OBJECTS(wf_area_1_macro_objs),

@@ -5,6 +5,7 @@ const GeoLayout wf_area_1_geo[] = {
 	GEO_OPEN_NODE(),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 0, 15170, 0, wf_dl_Cube_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 11, 14118, 0, 90, 0, -90, wf_dl_madmarcus_mesh_layer_1),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -5738, 13791, 0, wf_dl_Plane_001_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 521, -1278, -4, wf_dl_room_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 644, -3250, 1482, wf_dl_sewer_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -360, -275, -10, wf_dl_toilet_mesh_layer_1),

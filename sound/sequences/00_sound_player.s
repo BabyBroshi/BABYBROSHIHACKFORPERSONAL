@@ -2198,7 +2198,7 @@ chan_end
 
 .layer_CB2:
 layer_transpose_mario -3
-layer_note1_mario 39, 0x1c, 127
+layer_note1_mario 39, 0x10176, 127
 layer_end
 
 .sound_mario_whoa:

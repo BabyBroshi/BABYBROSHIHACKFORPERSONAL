@@ -70,17 +70,27 @@ const LevelScript level_wf_entry[] = {
 
 	AREA(1, wf_area_1),
 		WARP_NODE(0x0A, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
-		WARP_NODE(0xF0, LEVEL_CASTLE, 0x01, 0x32, WARP_NO_CHECKPOINT),
+		WARP_NODE(0xF0, LEVEL_CASTLE_GROUNDS, 0x01, 0x0C, WARP_NO_CHECKPOINT),
 		WARP_NODE(0xF1, LEVEL_WF, 0x01, 0x0D, WARP_NO_CHECKPOINT),
 		WARP_NODE(0x0A, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		WARP_NODE(0x0D, LEVEL_WF, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		MARIO_POS(0x01, 0, -73, 416, -11),
-		OBJECT(MODEL_NONE, -73, 416, -11, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
-		OBJECT(MODEL_NONE, -2201, 13994, 3586, 0, 0, 0, (0x0D << 16), bhvSwimmingWarp),
+		OBJECT_WITH_ACTS(MODEL_NONE, -73, 416, -11, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp, ACT_1),
+		OBJECT_WITH_ACTS(MODEL_NONE, -740, 14060, -11, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp, ACT_2 | ACT_3 | ACT_4 | ACT_5 | ACT_6),
+		OBJECT(MODEL_STAR, 22992, -7533, 2424, 0, 0, 0, 0x00000000, bhvStar),
+		OBJECT(MODEL_NONE, 1105, -3167, 1357, 0, 0, 0, (0x0D << 16), bhvAirborneWarp),
 		OBJECT(MODEL_DL_WHIRLPOOL, -194, -1168, -11, 0, 0, 0, 0x00000000, bhvWhirlpool),
 		TERRAIN(wf_area_1_collision),
 		MACRO_OBJECTS(wf_area_1_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_UNDERGROUND),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_07_MARIO_WAH2),
+		TERRAIN_TYPE(TERRAIN_GRASS),
+		/* Fast64 begin persistent block [area commands] */
+		/* Fast64 end persistent block [area commands] */
+	END_AREA(),
+	AREA(2, wf_area_2),
+		TERRAIN(wf_area_2_collision),
+		MACRO_OBJECTS(wf_area_2_macro_objs),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */

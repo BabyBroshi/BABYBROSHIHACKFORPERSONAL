@@ -22,7 +22,7 @@ static const Vtx tree_seg3_vertex_bubbly_left_side[] = {
 // 0x0302FE58
 static const Vtx tree_seg3_vertex_bubbly_right_side[] = {
     {{{     0,     -9,      0}, 0, {     0,   2012}, {0xff, 0xff, 0xff, 0xff}}},
-    {{{   356,     -9,      0}, 0, {  1756,   2012}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{   358,     -9,      0}, 0, {  1756,   2012}, {0xff, 0xff, 0xff, 0xff}}},
     {{{     0,    800,      0}, 0, {     0,   -712}, {0xff, 0xff, 0xff, 0xff}}},
 };
 

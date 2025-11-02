@@ -77,7 +77,7 @@ const LevelScript level_wf_entry[] = {
 		MARIO_POS(0x01, 0, -73, 416, -11),
 		OBJECT_WITH_ACTS(MODEL_NONE, -73, 416, -11, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp, ACT_1),
 		OBJECT_WITH_ACTS(MODEL_NONE, -740, 14060, -11, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp, ACT_2 | ACT_3 | ACT_4 | ACT_5 | ACT_6),
-		OBJECT(MODEL_STAR, 22992, -7533, 2424, 0, 0, 0, 0x00000000, bhvStar),
+		OBJECT(MODEL_STAR, 0, -9928, 2900, 0, 0, 0, 0x00000000, bhvStar),
 		OBJECT(MODEL_NONE, 0, -4897, 0, 0, 0, 0, (0x0D << 16), bhvAirborneWarp),
 		OBJECT(MODEL_DL_WHIRLPOOL, -194, -1168, -11, 0, 0, 0, 0x00000000, bhvWhirlpool),
 		TERRAIN(wf_area_1_collision),

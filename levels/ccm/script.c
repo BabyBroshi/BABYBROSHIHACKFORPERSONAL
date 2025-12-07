@@ -60,6 +60,7 @@ const LevelScript level_ccm_entry[] = {
 		OBJECT(MODEL_STAR, -11928, 1261, 8813, 0, 0, 0, (2 << 24), bhvStar),
 		OBJECT_WITH_ACTS(MODEL_BAGELER, -418, 0, 0, 0, 0, 0, 0x00000000, bhvBreakableBoxSmall, ACT_1),
 		OBJECT_WITH_ACTS(MODEL_BAGELER, -2513, 397, 0, 0, 0, 70, (0 << 24) | (1 << 16), bhvBageler, ACT_2 | ACT_4 | ACT_5 | ACT_6),
+		OBJECT(MODEL_BROSHIREAL, -551, 100, -296, 0, 180, 0, 0x00000000, bhvBobombBuddy),
 		OBJECT_WITH_ACTS(MODEL_EVILSAULL, 0, 85, -292, 0, 90, 0, (0 << 24) | (1 << 16), bhvBobombBuddy, ACT_1),
 		OBJECT_WITH_ACTS(MODEL_EVILSAULL, 0, 143, -292, 0, 90, 0, (10 << 16), bhvExclamationBox, ACT_2),
 		OBJECT(MODEL_STAR, 1143, 2585, 0, 0, 0, 0, (4 << 24), bhvStar),

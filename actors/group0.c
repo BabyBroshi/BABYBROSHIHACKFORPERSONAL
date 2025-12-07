@@ -49,3 +49,5 @@
 #include "glibertthethird/model.inc.c"
 #include "mario/anims/data.inc.c"
 #include "mario/anims/table.inc.c"
+#include "broshireal/model.inc.c"
+#include "birdekek/model.inc.c"

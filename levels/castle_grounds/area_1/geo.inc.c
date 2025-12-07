@@ -5,6 +5,7 @@ const GeoLayout castle_grounds_area_1_geo[] = {
 	GEO_OPEN_NODE(),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 0, 82, 11564, castle_grounds_dl_beythamodelmario_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -2024, 486, 0, 90, 0, -90, castle_grounds_dl_Image_mesh_layer_1),
+		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 0, 1303, -2024, 90, 0, 0, castle_grounds_dl_itch_iopage_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, 2024, 487, -6, 90, 0, 90, castle_grounds_dl_marcusadventures_mesh_layer_1),
 		GEO_DISPLAY_LIST(LAYER_OPAQUE, castle_grounds_dl_Plane_mesh_layer_1),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, castle_grounds_dl_Plane_mesh_layer_5),

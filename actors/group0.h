@@ -367,4 +367,8 @@ extern const Gfx white_particle_small_unused_dl[];
 
 
 #include "mario/anim_header.h"
+#include "broshireal/geo_header.h"
+
+#include "birdekek/geo_header.h"
+
 #endif

@@ -28,3 +28,5 @@
 #include "evilsaull/geo.inc.c"
 #include "bageler/geo.inc.c"
 #include "glibertthethird/geo.inc.c"
+#include "broshireal/geo.inc.c"
+#include "birdekek/geo.inc.c"

@@ -371,4 +371,6 @@ extern const Gfx white_particle_small_unused_dl[];
 
 #include "birdekek/geo_header.h"
 
+#include "laboon/geo_header.h"
+
 #endif

@@ -30,3 +30,4 @@
 #include "glibertthethird/geo.inc.c"
 #include "broshireal/geo.inc.c"
 #include "birdekek/geo.inc.c"
+#include "laboon/geo.inc.c"

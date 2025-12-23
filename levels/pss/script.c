@@ -40,6 +40,7 @@ const LevelScript level_pss_entry[] = {
 		WARP_NODE(0xF1, LEVEL_CASTLE, 0x01, 0x64, WARP_NO_CHECKPOINT),
 		MARIO_POS(0x01, 0, 0, 80, 0),
 		OBJECT(MODEL_NONE, 0, 80, 0, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
+		OBJECT(MODEL_GOOMBA, -630, -766, 0, 0, 0, 0, 0x00000000, bhvFloomba),
 		TERRAIN(pss_area_1_collision),
 		MACRO_OBJECTS(pss_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),

@@ -74,7 +74,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		OBJECT(MODEL_NONE, 26, 1161, -2179, 0, 0, 0, (5 << 24) | (0x2D << 16), bhvWarp),
 		OBJECT(MODEL_NONE, 292, 1161, -2179, 0, 0, 0, (5 << 24) | (0x2D << 16), bhvWarp),
 		OBJECT(MODEL_NONE, -282, 1161, -2179, 0, 0, 0, (5 << 24) | (0x2D << 16), bhvWarp),
-		OBJECT(MODEL_NONE, 0, 0, -400, 0, 0, 0, (0x8F << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 12792, -4297, 9079, 0, 0, 0, (15 << 24) | (0x8F << 16), bhvWarp),
 		OBJECT(MODEL_BOB_BUBBLY_TREE, -1710, 0, 3706, 0, 0, 0, 0x00000000, bhvTree),
 		OBJECT(MODEL_BOB_BUBBLY_TREE, -1211, 0, 2781, 0, 0, 0, 0x00000000, bhvTree),
 		OBJECT(MODEL_BOB_BUBBLY_TREE, -1623, 0, 4615, 0, 0, 0, 0x00000000, bhvTree),

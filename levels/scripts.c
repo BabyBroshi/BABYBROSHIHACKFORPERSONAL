@@ -65,6 +65,19 @@ const LevelScript level_main_scripts_entry[] = {
     LOAD_RAW_WITH_CODE( /*seg*/ SEGMENT_COMMON1_GEO,   _common1_geoSegmentRomStart,  _common1_geoSegmentRomEnd, _common1_geoSegmentBssStart, _common1_geoSegmentBssEnd),
     LOAD_RAW_WITH_CODE( /*seg*/ SEGMENT_BEHAVIOR_DATA,    _behaviorSegmentRomStart,     _behaviorSegmentRomEnd,   _behaviorSegmentBssStart,     _behaviorSegmentBssEnd),
     ALLOC_LEVEL_POOL(),
+    LOAD_MODEL_FROM_GEO(MODEL_BIRDEKEK, birdekek_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BROSHIREAL, broshireal_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_GLIBERTTHETHIRD, glibertthethird_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BAGELER, bageler_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_EVILSAULL, evilsaull_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_EVILSAULTHREED, evilsaulthreed_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_EVILSAUL3D, evilsaul3d_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_EVILSAUL, evilsaul_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_SAUL, saul_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BABYBROSHI, babybroshi_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BIZZARESCAPE, bizzarescape_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BABYYOSHI, babyyoshi_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_PRESSB, pressb_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MARIO,                   mario_geo),
     LOAD_MODEL_FROM_GEO(MODEL_SMOKE,                   smoke_geo),
     LOAD_MODEL_FROM_GEO(MODEL_SPARKLES,                sparkles_geo),
@@ -201,6 +214,7 @@ const LevelScript script_func_global_1[] = {
 };
 
 const LevelScript script_func_global_2[] = {
+    LOAD_MODEL_FROM_GEO(MODEL_BIZZARESCAPE, bizzarescape_geo),
     LOAD_MODEL_FROM_GEO(MODEL_BULLET_BILL,             bullet_bill_geo),
     LOAD_MODEL_FROM_GEO(MODEL_YELLOW_SPHERE,           yellow_sphere_geo),
     LOAD_MODEL_FROM_GEO(MODEL_HOOT,                    hoot_geo),

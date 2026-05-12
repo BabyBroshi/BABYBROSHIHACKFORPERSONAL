@@ -240,7 +240,6 @@ void play_sound_if_no_flag(struct MarioState *m, u32 soundBits, u32 flags) {
         m->flags |= flags;
     }
 }
-
 /**
  * Plays a jump sound if one has not been played since the last action change.
  */

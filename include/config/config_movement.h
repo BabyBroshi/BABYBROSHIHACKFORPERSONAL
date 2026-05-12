@@ -106,7 +106,7 @@
 /**
  * The maximum angle the player can wall kick, in degrees. 0..90. To allow 45 degree wall kicks, you must supply `46` to allow 45 and under.
  */
-#define WALL_KICK_DEGREES 45
+#define WALL_KICK_DEGREES 360
 
 /**
  * Makes Mario unable to ledge grab steep slopes to prevent false ledge grabs.
@@ -140,4 +140,4 @@
  * Inertia defines; allow Mario to preserve his momemtum when leaving moving platforms.
  */
 #define MARIO_INERTIA_UPWARD
-// #define MARIO_INERTIA_LATERAL
+#define MARIO_INERTIA_LATERAL

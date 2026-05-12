@@ -2198,7 +2198,7 @@ chan_end
 
 .layer_CB2:
 layer_transpose_mario -3
-layer_note1_mario 39, 0x1c, 127
+layer_note1_mario 39, 0x10176, 127
 layer_end
 
 .sound_mario_whoa:
@@ -2877,6 +2877,7 @@ sound_ref .sound_general_boing1
 sound_ref .sound_general_boing2
 sound_ref .sound_general_yoshi_walk
 sound_ref .sound_general_enemy_alert1
+sound_ref .sound_general_funny
 
 .sound_general_activate_cap_switch:
 chan_setbank 5
@@ -4939,6 +4940,16 @@ chan_setenvelope .envelope_32E4
 chan_setdecayrelease 8
 chan_setlayer 0, .layer_1E42
 chan_end
+
+.sound_general_funny:
+chan_setbank 5
+chan_setinstr 16
+chan_setlayer 0, .layer_1337
+chan_end
+
+.layer_1337:
+layer_note1 39, 0x7F, 127
+layer_end
 
 .layer_1E42:
 layer_somethingon

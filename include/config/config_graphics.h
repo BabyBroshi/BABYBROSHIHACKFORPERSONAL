@@ -20,12 +20,12 @@
 /**
  * Show a watermark on the title screen that reads "Made with HackerSM64", instead of the copyright message.
  */
-#define INTRO_CREDIT
+// #define INTRO_CREDIT
 
 /**
  * Spawns floombas on the title screen.
  */
-#define INTRO_FLOOMBAS
+// #define INTRO_FLOOMBAS
 
 /**
  * Enables widescreen (16:9) support.
@@ -55,12 +55,12 @@
 /**
  * Disables AA (Improves console performance but causes visible seams between unconnected geometry).
  */
-// #define DISABLE_AA
+#define DISABLE_AA
 
 /**
  * Makes the coins ia8 64x64 instead of ia16 32x32. Uses new ia8 textures so that vanilla coins look better.
  */
-// #define IA8_COINS
+#define IA8_COINS
 
 /**
  * Similar to the above, but 30 FPS (Textures by InTheBeef, cleaned up by Arceveti).
@@ -82,7 +82,7 @@
  * Also, this also disables anti-aliasing on Mario.
  * NOTE: Regarding performance, silhouette seems to lose 1-2 frames on console.
  */
-// #define SILHOUETTE 127
+#define SILHOUETTE 127
 
 /**
  * Use 64x64 quarter shadow textures (Vanilla are 16x16).
@@ -144,7 +144,7 @@
  * Eases the textured screen transitions to make them look smoother. 
  * Extends the full radius for mario, bowser and the star transitions.
  */
-// #define POLISHED_TRANSITIONS
+#define POLISHED_TRANSITIONS
 
 /**
  * Uses frustratio of 2 instead of 1.

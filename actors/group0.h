@@ -331,4 +331,46 @@ extern const Gfx white_particle_small_dl_end[];
 extern const Gfx white_particle_small_dl[];
 extern const Gfx white_particle_small_unused_dl[];
 
+#include "babyyoshi/geo_header.h"
+
+#include "pressb/geo_header.h"
+
+#include "pressb/collision_header.h"
+
+#include "mario/geo_header.h"
+
+#include "babybroshi/collision_header.h"
+
+#include "babybroshi/geo_header.h"
+
+#include "bizzarescape/collision_header.h"
+
+#include "bizzarescape/geo_header.h"
+
+#include "saul/collision_header.h"
+
+#include "saul/geo_header.h"
+
+#include "evilsaul/geo_header.h"
+
+#include "evilsaul3d/geo_header.h"
+
+#include "evilsaulthreed/geo_header.h"
+
+#include "evilsaull/geo_header.h"
+
+#include "evilsaull/collision_header.h"
+
+#include "bageler/geo_header.h"
+
+#include "glibertthethird/geo_header.h"
+
+
+#include "mario/anim_header.h"
+#include "broshireal/geo_header.h"
+
+#include "birdekek/geo_header.h"
+
+#include "laboon/geo_header.h"
+
 #endif

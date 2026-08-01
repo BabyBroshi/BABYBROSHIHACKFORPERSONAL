@@ -534,6 +534,10 @@ void render_hud_camera_status(void) {
     gSPDisplayList(gDisplayListHead++, dl_hud_img_end);
 }
 
+void render_hud_mario(void) {
+    print_text(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, ","); // 'Mario Head' glyph
+}
+
 /**
  * Render HUD strings using hudDisplayFlags with it's render functions,
  * excluding the cannon reticle which detects a camera preset for it.
@@ -577,6 +581,10 @@ void render_hud(void) {
             render_hud_mario_lives();
         }
 #endif
+
+        if (hudDisplayFlags & HUD_DISPLAY_FLAG_LIVES) {
+            render_hud_mario();
+        }
 
         if (hudDisplayFlags & HUD_DISPLAY_FLAG_COIN_COUNT) {
             render_hud_coins();

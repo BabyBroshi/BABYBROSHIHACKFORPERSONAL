@@ -96,6 +96,8 @@ extern s32 gSurfacesAllocated;
 extern s32 gNumStaticSurfaceNodes;
 extern s32 gNumStaticSurfaces;
 
+extern s16 resetTimer;
+
 #define OBJECT_MEMORY_POOL 0x800
 
 extern struct MemoryPool *gObjectMemoryPool;

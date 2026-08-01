@@ -1,4 +1,4 @@
-// Parameters: dialog enum ID, (unused), lines per box, left offset, width
+d// Parameters: dialog enum ID, (unused), lines per box, left offset, width
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
 Du bist inmitten der\n\

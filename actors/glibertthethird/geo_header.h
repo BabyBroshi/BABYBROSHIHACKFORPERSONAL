@@ -1,12 +1,12 @@
 extern const GeoLayout glibertthethird_geo[];
 extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_cull[8];
-extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_0[383];
+extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_0[174];
 extern Gfx glibertthethird_glibertthethird_mesh_layer_1_tri_0[];
 extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_1[8];
 extern Gfx glibertthethird_glibertthethird_mesh_layer_1_tri_1[];
-extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_2[111];
+extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_2[15];
 extern Gfx glibertthethird_glibertthethird_mesh_layer_1_tri_2[];
-extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_3[76];
+extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_3[56];
 extern Gfx glibertthethird_glibertthethird_mesh_layer_1_tri_3[];
 extern Vtx glibertthethird_glibertthethird_mesh_layer_1_vtx_4[36];
 extern Gfx glibertthethird_glibertthethird_mesh_layer_1_tri_4[];

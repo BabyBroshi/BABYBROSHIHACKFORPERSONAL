@@ -1273,16 +1273,18 @@ from the menu. For now,\n\
 farewell."))
 
 DEFINE_DIALOG(DIALOG_117, 1, 1, 95, 200, _("\
-Who...walk...here?\n\
-Who...break...seal?\n\
-Wake..ancient..ones?\n\
-We no like light...\n\
-Rrrrummbbble...\n\
-We no like...intruders!\n\
-Now battle...\n\
-...hand...\n\
-...to...\n\
-...hand!"))
+Welcome to my World\n\
+of Joy and Wonder!\n\
+\n\
+I'm Saul (game 3D)\n\
+I like to Jump\n\
+and walk\n\
+\n\
+Please go through\n\
+these tricky\n\
+platforming\n\
+challenges with\n\
+great haste."))
 
 DEFINE_DIALOG(DIALOG_118, 1, 6, 95, 200, _("\
 Grrrrumbbble!\n\

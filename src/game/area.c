@@ -135,6 +135,12 @@ void print_intro_text(void) {
     }
 }
 
+void print_reset_text(void) {
+    print_text(20, 20, "HOLD L TO RESET");
+    print_text_fmt_int(218, 20, "%d", 5 - (resetTimer / 30));
+}
+
+
 u32 get_mario_spawn_type(struct Object *obj) {
     s32 i;
     const BehaviorScript *behavior = virtual_to_segmented(SEGMENT_BEHAVIOR_DATA, obj->behavior);

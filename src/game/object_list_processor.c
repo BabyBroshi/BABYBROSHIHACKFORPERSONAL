@@ -257,6 +257,37 @@ void spawn_particle(u32 activeParticleFlag, ModelID16 model, const BehaviorScrip
     }
 }
 
+#include "sounds.h"
+#include "audio/external.h"
+
+#include "save_file.h"
+
+s16 resetTimer = 0;
+
+void reset_save_file(void) {
+    if (gCurrLevelNum == LEVEL_CASTLE_GROUNDS) {
+        if (gMarioState->controller->buttonDown & L_TRIG) {
+            resetTimer++;
+        } else {
+            resetTimer = 0;
+        }
+
+        print_reset_text();
+
+        if (resetTimer > (6 * 30) - 1) {
+            gHudDisplay.stars = 0;
+            gHudDisplay.coins = 0;
+
+            gMarioState->numStars = 0;
+            gMarioState->numCoins = 0;
+
+            save_file_erase(0);
+            play_sound(SOUND_MARIO_WAAAOOOW, gGlobalSoundSource);
+            resetTimer = 0;
+        }
+    }
+}
+
 /**
  * Mario's primary behavior update function.
  */
@@ -270,6 +301,8 @@ void bhv_mario_update(void) {
     // Mario code updates MarioState's versions of position etc, so we need
     // to sync it with the Mario object
     copy_mario_state_to_object();
+
+    reset_save_file();
 
     i = 0;
     while (sParticleTypes[i].particleFlag != 0) {

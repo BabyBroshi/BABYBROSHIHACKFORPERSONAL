@@ -4,6 +4,7 @@
 #define MODEL_NONE                             0x00
 
 /* fast64 object exports get inserted here */
+#define MODEL_SAUL3D                      266
 #define MODEL_BIRDEKEK                    248
 #define MODEL_BROSHIREAL                  258
 #define MODEL_GLIBERTTHETHIRD             265

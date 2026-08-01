@@ -373,4 +373,6 @@ extern const Gfx white_particle_small_unused_dl[];
 
 #include "laboon/geo_header.h"
 
+#include "saul3d/geo_header.h"
+
 #endif

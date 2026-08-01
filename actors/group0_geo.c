@@ -31,3 +31,4 @@
 #include "broshireal/geo.inc.c"
 #include "birdekek/geo.inc.c"
 #include "laboon/geo.inc.c"
+#include "saul3d/geo.inc.c"
